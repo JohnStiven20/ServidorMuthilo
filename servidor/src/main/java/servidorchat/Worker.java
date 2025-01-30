@@ -85,7 +85,7 @@ public class Worker implements Runnable {
                 
                 } else if (comando.equals("EXI")) {
                     String mensaje = "EXI " + this.nombre;
-                    mensajeTodos(mensaje);;
+                    mensajeTodos(mensaje);
                     conectado = false;
                     eliminarCliente();
                 }
