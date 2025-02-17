@@ -1,0 +1,292 @@
+feb. 17, 2025 6:02:07 P. M. servidorchat.ServidorMultiHilo configurarLogger
+INFO: Logger configurado correctamente.
+feb. 17, 2025 6:02:07 P. M. servidorchat.ServidorMultiHilo main
+INFO: Servidor iniciado en el puerto 4444
+feb. 17, 2025 6:02:07 P. M. servidorchat.ServidorMultiHilo main
+INFO: Socket de servidor creado en el puerto 4444
+feb. 17, 2025 6:02:07 P. M. servidorchat.ServidorMultiHilo main
+INFO: Servidor en espera de conexiones...
+feb. 17, 2025 6:02:37 P. M. servidorchat.ServidorMultiHilo main
+INFO: Nuevo cliente conectado desde 127.0.0.1
+feb. 17, 2025 6:02:37 P. M. servidorchat.ServidorMultiHilo main
+FINE: Nuevo Worker creado para gestionar cliente: /127.0.0.1
+feb. 17, 2025 6:02:37 P. M. servidorchat.Worker run
+INFO: Conexión aceptada: /127.0.0.1
+feb. 17, 2025 6:02:37 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente : CON Stiven
+feb. 17, 2025 6:02:37 P. M. servidorchat.Worker agregarCliente
+INFO: Cliente agregado: 
+feb. 17, 2025 6:02:37 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: OK
+feb. 17, 2025 6:02:37 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: LUS
+feb. 17, 2025 6:02:37 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: LST Stiven
+feb. 17, 2025 6:02:37 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: 
+feb. 17, 2025 6:02:37 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: MSG Stiven ha entrado al chat
+feb. 17, 2025 6:02:37 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Stiven,Stiven ha entrado al chat
+feb. 17, 2025 6:02:37 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: CHT Stiven,Stiven ha entrado al chat
+feb. 17, 2025 6:04:28 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: EXI
+feb. 17, 2025 6:04:28 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Stiven,El usuario Stiven ha salido del chat
+feb. 17, 2025 6:04:28 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: EXI Stiven
+feb. 17, 2025 6:04:28 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: 
+feb. 17, 2025 6:04:28 P. M. servidorchat.Worker eliminarCliente
+INFO: Cliente eliminado: Stiven
+feb. 17, 2025 6:04:28 P. M. servidorchat.Worker run
+INFO: Conexión cerrada para el cliente: Stiven
+feb. 17, 2025 6:04:46 P. M. servidorchat.ServidorMultiHilo main
+INFO: Nuevo cliente conectado desde 127.0.0.1
+feb. 17, 2025 6:04:46 P. M. servidorchat.ServidorMultiHilo main
+FINE: Nuevo Worker creado para gestionar cliente: /127.0.0.1
+feb. 17, 2025 6:04:46 P. M. servidorchat.Worker run
+INFO: Conexión aceptada: /127.0.0.1
+feb. 17, 2025 6:04:46 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente : CON Stiven
+feb. 17, 2025 6:04:46 P. M. servidorchat.Worker agregarCliente
+INFO: Cliente agregado: 
+feb. 17, 2025 6:04:46 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: OK
+feb. 17, 2025 6:04:46 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: LUS
+feb. 17, 2025 6:04:46 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: LST Stiven
+feb. 17, 2025 6:04:46 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: 
+feb. 17, 2025 6:04:46 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: MSG Stiven ha entrado al chat
+feb. 17, 2025 6:04:46 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Stiven,Stiven ha entrado al chat
+feb. 17, 2025 6:04:46 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: CHT Stiven,Stiven ha entrado al chat
+feb. 17, 2025 6:05:20 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: MSG Como estas
+feb. 17, 2025 6:05:20 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Stiven,Como estas
+feb. 17, 2025 6:05:20 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: CHT Stiven,Como estas
+feb. 17, 2025 6:05:27 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: MSG Bien
+feb. 17, 2025 6:05:27 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Stiven,Bien
+feb. 17, 2025 6:05:27 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: CHT Stiven,Bien
+feb. 17, 2025 6:05:29 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: MSG Nada mal
+feb. 17, 2025 6:05:29 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Stiven,Nada mal
+feb. 17, 2025 6:05:29 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: CHT Stiven,Nada mal
+feb. 17, 2025 6:05:34 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: MSG Bien para todos
+feb. 17, 2025 6:05:34 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Stiven,Bien para todos
+feb. 17, 2025 6:05:34 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: CHT Stiven,Bien para todos
+feb. 17, 2025 6:05:42 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: MSG Bien para ti y todos
+feb. 17, 2025 6:05:42 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Stiven,Bien para ti y todos
+feb. 17, 2025 6:05:42 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: CHT Stiven,Bien para ti y todos
+feb. 17, 2025 6:05:54 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: MSG iullllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllliullllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllliulllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+feb. 17, 2025 6:05:54 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Stiven,iullllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllliullllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllliulllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+feb. 17, 2025 6:05:54 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: CHT Stiven,iullllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllliullllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllliulllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+feb. 17, 2025 6:07:04 P. M. servidorchat.ServidorMultiHilo main
+INFO: Nuevo cliente conectado desde 127.0.0.1
+feb. 17, 2025 6:07:04 P. M. servidorchat.ServidorMultiHilo main
+FINE: Nuevo Worker creado para gestionar cliente: /127.0.0.1
+feb. 17, 2025 6:07:04 P. M. servidorchat.Worker run
+INFO: Conexión aceptada: /127.0.0.1
+feb. 17, 2025 6:07:04 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente : CON Marcos
+feb. 17, 2025 6:07:04 P. M. servidorchat.Worker agregarCliente
+INFO: Cliente agregado: 
+feb. 17, 2025 6:07:04 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Marcos: OK
+feb. 17, 2025 6:07:04 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Marcos: LUS
+feb. 17, 2025 6:07:04 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: LST Stiven,Marcos
+feb. 17, 2025 6:07:04 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Marcos: LST Stiven,Marcos
+feb. 17, 2025 6:07:04 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Marcos: 
+feb. 17, 2025 6:07:04 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Marcos: MSG Marcos ha entrado al chat
+feb. 17, 2025 6:07:04 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Marcos,Marcos ha entrado al chat
+feb. 17, 2025 6:07:04 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Marcos: CHT Marcos,Marcos ha entrado al chat
+feb. 17, 2025 6:07:04 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Marcos: CHT Marcos,Marcos ha entrado al chat
+feb. 17, 2025 6:07:23 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Marcos: MSG COMO ESTAS
+feb. 17, 2025 6:07:23 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Marcos,COMO ESTAS
+feb. 17, 2025 6:07:23 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Marcos: CHT Marcos,COMO ESTAS
+feb. 17, 2025 6:07:23 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Marcos: CHT Marcos,COMO ESTAS
+feb. 17, 2025 6:08:15 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Marcos: EXI
+feb. 17, 2025 6:08:15 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Marcos,El usuario Marcos ha salido del chat
+feb. 17, 2025 6:08:15 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Marcos: CHT Marcos,El usuario Marcos ha salido del chat
+feb. 17, 2025 6:08:15 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: EXI Marcos
+feb. 17, 2025 6:08:15 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Marcos: EXI Marcos
+feb. 17, 2025 6:08:15 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: LUS
+feb. 17, 2025 6:08:15 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Marcos: 
+feb. 17, 2025 6:08:15 P. M. servidorchat.Worker eliminarCliente
+INFO: Cliente eliminado: Marcos
+feb. 17, 2025 6:08:15 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: LST Stiven
+feb. 17, 2025 6:08:15 P. M. servidorchat.Worker run
+INFO: Conexión cerrada para el cliente: Marcos
+feb. 17, 2025 6:08:15 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: 
+feb. 17, 2025 7:05:14 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: EXI
+feb. 17, 2025 7:05:14 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Stiven,El usuario Stiven ha salido del chat
+feb. 17, 2025 7:05:14 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: EXI Stiven
+feb. 17, 2025 7:05:14 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: 
+feb. 17, 2025 7:05:14 P. M. servidorchat.Worker eliminarCliente
+INFO: Cliente eliminado: Stiven
+feb. 17, 2025 7:05:14 P. M. servidorchat.Worker run
+INFO: Conexión cerrada para el cliente: Stiven
+feb. 17, 2025 8:58:38 P. M. servidorchat.ServidorMultiHilo configurarLogger
+INFO: Logger configurado correctamente.
+feb. 17, 2025 8:58:38 P. M. servidorchat.ServidorMultiHilo main
+INFO: Servidor iniciado en el puerto 4444
+feb. 17, 2025 8:58:38 P. M. servidorchat.ServidorMultiHilo main
+INFO: Socket de servidor creado en el puerto 4444
+feb. 17, 2025 8:58:38 P. M. servidorchat.ServidorMultiHilo main
+INFO: Servidor en espera de conexiones...
+feb. 17, 2025 8:59:29 P. M. servidorchat.ServidorMultiHilo main
+INFO: Nuevo cliente conectado desde 127.0.0.1
+feb. 17, 2025 8:59:29 P. M. servidorchat.ServidorMultiHilo main
+FINE: Nuevo Worker creado para gestionar cliente: /127.0.0.1
+feb. 17, 2025 8:59:29 P. M. servidorchat.Worker run
+INFO: Conexion aceptada: /127.0.0.1
+feb. 17, 2025 8:59:29 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente : CON Marcos
+feb. 17, 2025 8:59:29 P. M. servidorchat.Worker agregarCliente
+INFO: Cliente agregado: 
+feb. 17, 2025 8:59:29 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Marcos: OK
+feb. 17, 2025 8:59:29 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Marcos: LUS
+feb. 17, 2025 8:59:29 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Marcos: LST Marcos
+feb. 17, 2025 8:59:29 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Marcos: 
+feb. 17, 2025 8:59:29 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Marcos: MSG Marcos ha entrado al chat
+feb. 17, 2025 8:59:29 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Marcos: CHT Marcos,Marcos ha entrado al chat
+feb. 17, 2025 8:59:29 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Marcos: CHT Marcos,Marcos ha entrado al chat
+feb. 17, 2025 8:59:32 P. M. servidorchat.ServidorMultiHilo main
+INFO: Nuevo cliente conectado desde 127.0.0.1
+feb. 17, 2025 8:59:32 P. M. servidorchat.ServidorMultiHilo main
+FINE: Nuevo Worker creado para gestionar cliente: /127.0.0.1
+feb. 17, 2025 8:59:32 P. M. servidorchat.Worker run
+INFO: Conexion aceptada: /127.0.0.1
+feb. 17, 2025 8:59:32 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente : CON Stiven
+feb. 17, 2025 8:59:32 P. M. servidorchat.Worker agregarCliente
+INFO: Cliente agregado: 
+feb. 17, 2025 8:59:32 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: OK
+feb. 17, 2025 8:59:32 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: LUS
+feb. 17, 2025 8:59:32 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Marcos: LST Marcos,Stiven
+feb. 17, 2025 8:59:32 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: LST Marcos,Stiven
+feb. 17, 2025 8:59:32 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: 
+feb. 17, 2025 8:59:32 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: MSG Stiven ha entrado al chat
+feb. 17, 2025 8:59:32 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Marcos: CHT Stiven,Stiven ha entrado al chat
+feb. 17, 2025 8:59:32 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Stiven,Stiven ha entrado al chat
+feb. 17, 2025 8:59:32 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: CHT Stiven,Stiven ha entrado al chat
+feb. 17, 2025 9:00:18 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: PRV Marcos,Como estas Marcos ?
+feb. 17, 2025 9:00:18 P. M. servidorchat.Worker mensajePrivado
+INFO: Mensaje privado enviado a Marcos desde Stiven: Como estas Marcos ?
+feb. 17, 2025 9:00:18 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: 
+feb. 17, 2025 9:00:28 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Marcos: PRV Stiven,Bien y tu ?
+feb. 17, 2025 9:00:28 P. M. servidorchat.Worker mensajePrivado
+INFO: Mensaje privado enviado a Stiven desde Marcos: Bien y tu ?
+feb. 17, 2025 9:00:28 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Marcos: 
+feb. 17, 2025 9:00:37 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: PRV Marcos,Si todo bien
+feb. 17, 2025 9:00:37 P. M. servidorchat.Worker mensajePrivado
+INFO: Mensaje privado enviado a Marcos desde Stiven: Si todo bien
+feb. 17, 2025 9:00:37 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: 
+feb. 17, 2025 9:00:47 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Marcos: PRV Stiven,Bueno adios
+feb. 17, 2025 9:00:47 P. M. servidorchat.Worker mensajePrivado
+INFO: Mensaje privado enviado a Stiven desde Marcos: Bueno adios
+feb. 17, 2025 9:00:47 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Marcos: 
+feb. 17, 2025 9:10:44 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Marcos: EXI
+feb. 17, 2025 9:10:44 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Marcos: CHT Marcos,El usuario Marcos ha salido del chat
+feb. 17, 2025 9:10:44 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Marcos,El usuario Marcos ha salido del chat
+feb. 17, 2025 9:10:44 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Marcos: EXI Marcos
+feb. 17, 2025 9:10:44 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: EXI Marcos
+feb. 17, 2025 9:10:44 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Marcos: 
+feb. 17, 2025 9:10:44 P. M. servidorchat.Worker eliminarCliente
+INFO: Cliente eliminado: Marcos
+feb. 17, 2025 9:10:44 P. M. servidorchat.Worker run
+INFO: Conexion cerrada para el cliente: Marcos
+feb. 17, 2025 9:10:44 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: LUS
+feb. 17, 2025 9:10:44 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: LST Stiven
+feb. 17, 2025 9:10:44 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: 
+feb. 17, 2025 9:10:50 P. M. servidorchat.Worker run
+INFO: Mensaje recibido del cliente Stiven: EXI
+feb. 17, 2025 9:10:50 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: CHT Stiven,El usuario Stiven ha salido del chat
+feb. 17, 2025 9:10:50 P. M. servidorchat.Worker mensajeTodos
+INFO: Mensaje enviado a Stiven: EXI Stiven
+feb. 17, 2025 9:10:50 P. M. servidorchat.Worker run
+INFO: Respuesta enviada al cliente Stiven: 
+feb. 17, 2025 9:10:50 P. M. servidorchat.Worker eliminarCliente
+INFO: Cliente eliminado: Stiven
+feb. 17, 2025 9:10:50 P. M. servidorchat.Worker run
+INFO: Conexion cerrada para el cliente: Stiven

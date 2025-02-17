@@ -40,7 +40,7 @@ public class ServidorMultiHilo {
         try {
 
             while (true) {
-                LOG.finer("Esperando conexion de un cliente...");
+
                 socketCliente = socketServidor.accept();
                 LOG.info("Nuevo cliente conectado desde " + socketCliente.getInetAddress().getHostAddress());
                 
@@ -58,7 +58,7 @@ public class ServidorMultiHilo {
 
     private static void configurarLogger() {
         try {
-            FileHandler ficheroTXT = new FileHandler("log.txt", true);
+            FileHandler ficheroTXT = new FileHandler("servidor.txt", true);
             SimpleFormatter formatoTXT = new SimpleFormatter();
             ficheroTXT.setFormatter(formatoTXT);
             LOG.addHandler(ficheroTXT);
@@ -69,9 +69,4 @@ public class ServidorMultiHilo {
             LOG.severe("Error en la creacion del fichero de logs: " + e.getMessage());
         }
     }
-
-    public static Logger LogServidor(){
-        return LOG;
-    }
-    
 }
