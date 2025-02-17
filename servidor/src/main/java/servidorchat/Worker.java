@@ -11,11 +11,10 @@ public class Worker implements Runnable {
     private final Socket socketCliente;
     private DataInputStream entrada = null;
     private DataOutputStream salida = null;
-    private String nombre = "";
+    String nombre = "";
 
     public Worker(Socket socketCliente) {
         this.socketCliente = socketCliente;
-
     }
 
     @Override
@@ -23,13 +22,11 @@ public class Worker implements Runnable {
 
         boolean conectado = true;
 
-        try { 
-
+        try {
             entrada = new DataInputStream(socketCliente.getInputStream());
             salida = new DataOutputStream(socketCliente.getOutputStream());
 
             System.out.println("Conexión aceptada: " + socketCliente.getInetAddress());
-
 
             while (conectado) {
 
@@ -46,53 +43,51 @@ public class Worker implements Runnable {
                     mensajeTodos(enviarMensaje);
                 } else if (comando.equals("CON")) {
 
-                    String nombreUsuario = mensajeRecibido.substring(mensajeRecibido.indexOf(" ") + 1,mensajeRecibido.length()).trim();
-
+                    String nombreUsuario = mensajeRecibido.substring(mensajeRecibido.indexOf(" ") + 1, mensajeRecibido.length()).trim();
                     boolean encontrado = ServidorMultiHilo.clientes.stream().anyMatch(cliente -> cliente.nombre.equals(nombreUsuario));
 
                     if (!encontrado) {
-                        
                         agregarCliente();
                         this.nombre = nombreUsuario;
                         enviarMensaje = "OK";
                         salida.writeUTF(enviarMensaje);
                         salida.flush();
-                        mensajeTodos("CHT " + this.nombre + ", El usuario " + this.nombre + " se ha conectado");
-
-
                     } else {
                         enviarMensaje = "NOK";
                         salida.writeUTF(enviarMensaje);
                         salida.flush();
                     }
+
                 } else if (comando.equals("LUS")) {
 
-                    String clientesNombres = "LST "+ ServidorMultiHilo.clientes
-                    .stream()
-                    .map(x -> x.nombre).
-                    collect(Collectors.joining(","));
-                    
+                    String clientesNombres = "LST " + ServidorMultiHilo.clientes
+                            .stream()
+                            .map(x -> x.nombre)
+                            .collect(Collectors.joining(","));
+
                     mensajeTodos(clientesNombres);
 
                 } else if (comando.equals("PRV")) {
 
                     String usuarioDestinatario = mensajeRecibido
-                    .substring(mensajeRecibido.indexOf(" ") + 1, mensajeRecibido.lastIndexOf(","));
+                        .substring(mensajeRecibido.indexOf(" ") + 1, mensajeRecibido.lastIndexOf(","));
                     String mensaje = mensajeRecibido
-                    .substring(mensajeRecibido.lastIndexOf(",") + 1, mensajeRecibido.length());
+                        .substring(mensajeRecibido.lastIndexOf(",") + 1, mensajeRecibido.length());
 
                     mensajePrivado(mensaje, usuarioDestinatario, this.nombre);
-                
+
                 } else if (comando.equals("EXI")) {
+                    mensajeTodos("CHT " + this.nombre + ",El usuario " + this.nombre + " ha salido del chat");
                     String mensaje = "EXI " + this.nombre;
                     mensajeTodos(mensaje);
                     conectado = false;
                     eliminarCliente();
                 }
 
-                System.out.println("<-- Servidor: " + mensajeRecibido);
-                System.out.println("--> Cliente " + nombre + " : " + enviarMensaje);
-                System.out.println( "--------------------------------------------------------------------------------------");
+                System.out.println("╔══════════════════════════════════════════════════════════════╗");
+                System.out.println("║  Servidor recibió  : " + mensajeRecibido);
+                System.out.println("║  Respuesta al cliente " + nombre + ": " + enviarMensaje);
+                System.out.println("╚══════════════════════════════════════════════════════════════╝");
 
             }
         } catch (IOException e) {
@@ -122,7 +117,6 @@ public class Worker implements Runnable {
             }
         }
     }
-    
 
     private boolean mensajePrivado(String mensaje, String usuarioDestinario, String usuarioLocal) {
         for (Worker cliente : ServidorMultiHilo.clientes) {
@@ -133,12 +127,10 @@ public class Worker implements Runnable {
                     cliente.salida.flush();
                     return true;
                 }
-
             } catch (IOException e) {
                 System.out.println(e.getMessage());
             }
         }
-
         return false;
     }
 
@@ -153,6 +145,5 @@ public class Worker implements Runnable {
             ServidorMultiHilo.clientes.remove(this);
         }
     }
-    
-    
+
 }
